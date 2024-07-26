@@ -1,48 +1,53 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Campo à Cidade: Colhendo Oportunidades</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Do Campo à Cidade: Colhendo Oportunidades</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Sobre nós</a>
-            <a href="#">Projetos</a>
-            <a href="#">Blog</a>
-            <a href="#">Contato</a>
-        </nav>
-    </header>
-    <div class="container">
-        
-        
-        <section id="sobre">
-          <img class="imagem" src="https://github.com/evilynK1/Agrinho-evilyn/blob/main/agrinho_500x1280-2.jpg?raw=true" alt="">
-            <h2>Quem Somos</h2>
-            <p>Do Campo à Cidade é um projeto que uni forças do meio rural e urbano para combater os problemas ambientais, sociais e econômicos da atualidade.</p>
-        </section>
-        
-        <section id="blog">
-            <h2>Nosso Blog</h2>
-            <div class="artigo">
-                
-        <h3>Integração Sustentável: Como a Agricultura Urbana Pode Transformar Cidades</h3>
-        <p>Agricultura urbana não é apenas uma tendência, mas uma solução promissora para diversas questões urbanas contemporâneas. Com a crescente urbanização e o aumento da preocupação com a sustentabilidade, as iniciativas que combinam práticas agrícolas eficientes com o ambiente urbano estão se destacando.</p>
-        <p>Neste artigo, exploramos como projetos de agricultura urbana podem transformar cidades em locais mais verdes e resilientes. Discutimos os benefícios econômicos, sociais e ambientais de cultivar alimentos localmente, reduzindo a dependência de longas cadeias de suprimentos e promovendo a segurança alimentar.</p>
-        <p>Além disso, examinamos casos de sucesso de iniciativas que conectam comunidades urbanas com produtores rurais, criando oportunidades econômicas para agricultores e melhorando a qualidade de vida dos habitantes urbanos.</p>
-        <p>Se você está interessado em como a agricultura urbana pode contribuir para um futuro mais sustentável e inclusivo, este artigo oferece insights valiosos sobre o potencial transformador dessa prática.</p>
-    </div>
-            
-            <a href="#" cla text-emphasis-color: #ffffff;ss="botao">Visite nosso blog</a>
-        </section>
-    </div>
-    <h4 class="rodape" >&copy; 2024 Do Campo à Cidade. Todos os direitos reservados.</h4>
-</body>
 
-  
+          body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #0077cc;
+    color: #ffffff;
+    text-align: center;
 
-</html>
+}
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+section {
+    margin-bottom: 40px;
+}
+footer {
+    background-color: #0077cc;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape{
+  background-color: #0077cc;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+.imagem{
+  Width: 800px;
+  border-radius: 10px;
+}
